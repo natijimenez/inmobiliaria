@@ -1,0 +1,1 @@
+cargarTarjeta ("#contenedorCardsAlquiler", propiedades_alquiler)

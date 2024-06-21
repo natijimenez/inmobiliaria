@@ -1,0 +1,122 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover;
+    /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.main-venta {
+    background-image: url('../img/main-venta.jpg');
+    background-size: cover;
+    /* La imagen cubrirá todo el ancho y largo */
+    background-position-y: 56%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    filter: saturate(120%);
+
+}
+
+.main-alquiler {
+    background-image: url('../img/main-alquiler.jpg');
+    background-size: cover;
+    /* La imagen cubrirá todo el ancho y largo */
+    background-position-y: 75%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    filter: saturate(120%);
+}
+
+.contenedorCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cardPropiedad {
+    width: 95%;
+    border: 1px solid #69696961;
+    border-radius: 10px;
+}
+
+.imgPropiedad {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.contenidoCardPropiedad {
+    padding: 20px;
+    height: 450px;
+}
+
+.contenedorSmoke,
+.contenedorPets {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorSmoke i,
+.contenedorPets i {
+    padding-right: 10px;
+    margin-top: 4px;
+}
+
+.tituloCardPropiedad {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.rojo {
+    color: red;
+}
+
+.verde {
+    color: green;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.contenedorCardsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+
+@media (min-width: 867px) {
+    .contenedorCards {
+        flex-direction: row;
+    }
+
+    .cardPropiedad {
+        width: 30%;
+    }
+
+    .contenidoCardPropiedad {
+        height: 400px;
+    }
+
+    .contenedorCardsSection {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

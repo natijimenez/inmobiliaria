@@ -1,0 +1,1 @@
+cargarTarjeta ("#contenedorCardsVenta", propiedades_venta)
